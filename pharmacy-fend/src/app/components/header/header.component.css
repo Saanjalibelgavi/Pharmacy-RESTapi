@@ -1,0 +1,13 @@
+.header {
+  background: #1e4fa1;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right input {
+  padding: 6px;
+  margin-right: 10px;
+}

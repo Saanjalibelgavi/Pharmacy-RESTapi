@@ -1,0 +1,7 @@
+.patient-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #f4f6f8;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}

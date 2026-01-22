@@ -1,0 +1,21 @@
+<h2>Pharmacy Items</h2>
+
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="error">{{ error }}</div>
+
+<table *ngIf="!loading && items.length">
+  <thead>
+    <tr>
+      <th>Medicine</th>
+      <th>Prescribed</th>
+      <th>Dispensed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of items">
+      <td>{{ item.medicineName }}</td>
+      <td>{{ item.prescribedQty }}</td>
+      <td>{{ item.dispensedQty }}</td>
+    </tr>
+  </tbody>
+</table>

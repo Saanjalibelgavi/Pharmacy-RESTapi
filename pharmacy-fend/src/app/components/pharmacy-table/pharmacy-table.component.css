@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background: #1e4fa1;
+  color: white;
+}
+
+button {
+  background: green;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
